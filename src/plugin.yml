@@ -1,0 +1,26 @@
+name: KeySpawner
+version: 1.3.1
+main: com.maxx.keyspawner.main.KeySpawner
+author: Maxx_Qc
+softdepend: [Factions, Vault, MassiveCore]
+commands:
+  keyspawner:
+    description: Donner une clef a spawner a un joueur
+    usage: /keyspawner <joueur>
+  spawner:
+    description: Donner un spawner a un joueur ou a soi-meme
+    usage: /spawner <entite> [joueur]
+permissions:
+  keyspawner.*:
+    description: Toutes les permissions
+    default: op
+    children:
+      keyspawner.sign: true
+      keyspawner.spawner: true
+      keyspawner.sign.buy: true
+  keyspawner.give:
+    description: Permet de donner une clef a spawner a un joueur
+  keyspawner.spawner:
+    description: Permet de donner un spawner a un joueur ou a soi-meme
+  keyspawner.sign.buy:
+    description: Permet de creer un panneau pour vendre des spawners

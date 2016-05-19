@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Maxime/Desktop/Coding/Fichiers/Factions.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maxime/Desktop/Coding/Fichiers/spigot_server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maxime/Desktop/Coding/Fichiers/MassiveCore.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maxime/Desktop/Coding/Fichiers/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Maxime/Desktop/Coding/Fichiers/Factions2.jar"/>
+	<classpathentry kind="output" path="bin1"/>
+</classpath>
